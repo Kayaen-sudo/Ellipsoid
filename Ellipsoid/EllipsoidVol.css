@@ -1,0 +1,38 @@
+body{
+	padding-top:10px;
+	background-color: rgb(150, 156, 63);
+	justify-content: center;
+	padding:100px 600px;
+	
+}
+
+
+p{
+
+color:blue;
+
+
+}
+
+label {
+	display:block;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+} 
+
+input {
+	display:block;
+} 
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #3b963e;
+	text-decoration: none;
+	margin: 4px 2px;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+
+	
+	cursor: pointer;
+  }

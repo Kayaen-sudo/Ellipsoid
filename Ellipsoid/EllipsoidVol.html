@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Exercise1
+     -->
+<html lang = "en">
+<head>
+  <title> Exercise1 -Ellipsoid</title>
+  <meta charset = "utf-8" />
+  <script type = "text/javascript" src = "ex1.js"></script>
+  <link rel="stylesheet" type="text/css" href="ex1.css"/>
+</head>
+<body>
+    <p> Enter the three dimensions of the Ellipsoid:</p>
+
+        <form>
+          <p>
+          <label> Enter first axis:
+            <input type = "text" id = "first"  
+                   size = "10" />
+          </label>
+          <br /><br />
+          <label> Enter second axis:
+            <input type = "text"  id = "second" 
+                   size = "10" />
+          </label>
+          <br /><br />
+          <label> Enter third axis:
+            <input type = "text"  id = "third" 
+                   size = "10" />
+          </label>
+          <br /><br />
+          
+          <label> Volume:
+            <input type = "text"  id = "volume" 
+                   size = "10" 
+                   onfocus = "this.blur();" />
+          </label>
+ 
+          <p>
+            <input type="button" onclick="wrong()" ondblclick="clean()" value="Calculate" id="vol" min = "1" max = "100">
+            <input type="reset">
+          </p>
+        </form> 
+</body>
+</html>
